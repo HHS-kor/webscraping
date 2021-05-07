@@ -2,7 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 
 
-for year in range(2020, 2021):
+for year in range(2015, 2021):
 
     url = "https://search.daum.net/search?w=tot&q={}%EB%85%84%EC%98%81%ED%99%94%EC%88%9C%EC%9C%84&DA=MOR&rtmaxcoll=MOR".format(
         year)
